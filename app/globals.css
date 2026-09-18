@@ -156,3 +156,10 @@ body:has(.illustratedGame){background:#071f17!important}
 .foundNextClose{left:4%!important;top:3.2%!important;width:31%!important;height:7.2%!important}
 .foundNextContinue{left:14%!important;top:58.3%!important;width:72%!important;height:8.5%!important}
 @media(min-width:700px){.foundNext{left:50%!important;right:auto!important;width:430px!important;transform:translateX(-50%)!important}}
+
+/* Illustrated reward for the final card */
+.foundFinal{position:fixed!important;inset:0!important;z-index:125!important;background:#0b2a20 url('/stopar-posledni-karta-HD.png') center center/cover no-repeat!important}
+.foundFinalClose,.foundFinalFinish{position:absolute!important;z-index:127!important;border:0!important;background:transparent!important;padding:0!important;margin:0!important;-webkit-tap-highlight-color:transparent}
+.foundFinalClose{left:4%!important;top:3.2%!important;width:31%!important;height:7.2%!important}
+.foundFinalFinish{left:14%!important;top:60.1%!important;width:72%!important;height:8.2%!important}
+@media(min-width:700px){.foundFinal{left:50%!important;right:auto!important;width:430px!important;transform:translateX(-50%)!important}}
