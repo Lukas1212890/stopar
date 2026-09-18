@@ -1,1 +1,1 @@
-export const metadata={title:"Stopař",description:"Venkovní dobrodružná hra"};import "./globals.css";export default function RootLayout({children}){return <html lang="cs"><body>{children}</body></html>}
+export const metadata={title:"Stopař",description:"Venkovní dobrodružná hra",viewport:"width=device-width, initial-scale=1, viewport-fit=cover",themeColor:"#123f32"};import "./globals.css";export default function RootLayout({children}){return <html lang="cs"><body>{children}</body></html>}
