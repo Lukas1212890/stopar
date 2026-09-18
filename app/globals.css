@@ -18,3 +18,15 @@ header{height:auto;min-height:64px;padding-top:env(safe-area-inset-top);box-sizi
  .actions{padding-top:18px}
  .hint{margin-top:14px}
 }
+/* Force compact phone layout */
+@media(max-width:600px){
+ body{margin:0!important;background:#fbf7ea!important}
+ main{min-height:100svh!important;height:auto!important;padding:0!important}
+ .hero{min-height:0!important;height:auto!important;padding:calc(env(safe-area-inset-top) + 34px) 22px 24px!important}
+ .hero .ghost{margin:8px auto 0!important;font-size:96px!important}
+ .hero h1{font-size:52px!important;line-height:1!important;margin-top:0!important}
+ .hero p{margin:10px 0 0!important}
+ .actions{padding:18px 22px calc(18px + env(safe-area-inset-bottom))!important}
+ .actions .big{margin-bottom:10px!important}
+ header{padding-top:env(safe-area-inset-top)!important}
+}
