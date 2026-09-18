@@ -30,3 +30,10 @@ header{height:auto;min-height:64px;padding-top:env(safe-area-inset-top);box-sizi
  .actions .big{margin-bottom:10px!important}
  header{padding-top:env(safe-area-inset-top)!important}
 }
+/* Phone home screen: deliberately center the composition lower */
+@media(max-width:600px){
+ main:has(.hero){min-height:100dvh!important;display:flex!important;flex-direction:column!important;background:#fbf7ea!important}
+ main:has(.hero) .hero{flex:0 0 auto!important;height:auto!important;min-height:0!important;padding:calc(env(safe-area-inset-top) + 105px) 22px 34px!important}
+ main:has(.hero) .hero .ghost{margin:0 auto 8px!important}
+ main:has(.hero) .actions{flex:0 0 auto!important;padding:28px 22px calc(28px + env(safe-area-inset-bottom))!important}
+}
