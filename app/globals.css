@@ -149,3 +149,10 @@ body:has(.illustratedGame){background:#071f17!important}
 .gameManual .srOnly{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 .gameManual[open]{top:64.6%!important;padding:8px 10px 10px!important;background:rgba(245,222,174,.97)!important}
 .gameManual[open] summary{height:18px!important}
+
+/* Illustrated reward after every non-final card */
+.foundNext{position:fixed!important;inset:0!important;z-index:120!important;background:#0b2a20 url('/stopar-karta-nalezena-dalsi-stopa-HD.png') center center/cover no-repeat!important}
+.foundNextClose,.foundNextContinue{position:absolute!important;z-index:122!important;border:0!important;background:transparent!important;padding:0!important;margin:0!important;-webkit-tap-highlight-color:transparent}
+.foundNextClose{left:4%!important;top:3.2%!important;width:31%!important;height:7.2%!important}
+.foundNextContinue{left:14%!important;top:58.3%!important;width:72%!important;height:8.5%!important}
+@media(min-width:700px){.foundNext{left:50%!important;right:auto!important;width:430px!important;transform:translateX(-50%)!important}}
