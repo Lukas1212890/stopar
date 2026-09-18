@@ -68,3 +68,11 @@ header{height:auto;min-height:64px;padding-top:env(safe-area-inset-top);box-sizi
 .playHotspot{top:52.5%!important}.createHotspot{top:62.6%!important}
 .homeHotspot:active{background:rgba(255,255,255,.08)!important;border-radius:16px!important}
 @media(min-width:700px){.illustratedHome{max-width:430px!important;margin:0 auto!important;background-size:cover!important}}
+
+/* rollback failed CSS-illustration experiment */
+.adventure,.adventureActions{all:unset}
+@media(max-width:600px){
+ main:has(.hero){min-height:100dvh!important;display:block!important;background:#fbf7ea!important}
+ main:has(.hero) .hero{min-height:0!important;height:auto!important;padding:calc(env(safe-area-inset-top) + 145px) 22px 42px!important;background:linear-gradient(#123f32,#08291f)!important;color:#fff!important;text-align:center!important;position:relative!important;overflow:hidden!important}
+ main:has(.hero) .actions{padding:38px 22px calc(32px + env(safe-area-inset-bottom))!important;background:#fbf7ea!important}
+}
