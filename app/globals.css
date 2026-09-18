@@ -87,7 +87,7 @@ body:has(.illustratedHome){background:#071f17!important}
 
 /* Illustrated join-game screen */
 body:has(.illustratedPlay){background:#071f17!important}
-.illustratedPlay{position:relative!important;display:block!important;width:100%!important;height:100dvh!important;min-height:100dvh!important;margin:0 auto!important;padding:0!important;background:#0b2a20 url('/stopar-hrat-vypravu-HD.png') center center/cover no-repeat!important;overflow:hidden!important}
+.illustratedPlay{position:relative!important;display:block!important;width:100%!important;height:100dvh!important;min-height:100dvh!important;margin:0 auto!important;padding:0!important;background:#0b2a20 url('/stopar-hrat-vypravu-v2-HD.png') center center/cover no-repeat!important;overflow:hidden!important}
 .playBackHotspot,.playJoinHotspot{position:absolute!important;z-index:20!important;border:0!important;background:transparent!important;-webkit-tap-highlight-color:transparent}
 .playBackHotspot{left:4%!important;top:10.5%!important;width:48%!important;height:8%!important}
 .playJoinHotspot{left:12%!important;top:66.3%!important;width:76%!important;height:8.5%!important}
@@ -109,3 +109,7 @@ body:has(.illustratedPlay){background:#071f17!important}
    font-size:20px!important;
  }
 }
+
+/* Join screen v2 artwork alignment */
+.playCodeInput{top:56.7%!important;left:15%!important;width:70%!important;height:5.4%!important;background:rgba(255,255,255,.03)!important;color:#173c2d!important;font-size:20px!important}
+.playJoinHotspot{top:63.2%!important;left:12%!important;width:76%!important;height:7.2%!important}
