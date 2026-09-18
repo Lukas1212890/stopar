@@ -188,3 +188,11 @@ body:has(.illustratedComplete){background:#071f17!important}
 .gameScanner #qrReader{flex:1!important;min-height:0!important;width:100%!important;border:0!important;background:#000!important}
 .gameScanner #qrReader video{width:100%!important;height:100%!important;min-height:0!important;object-fit:cover!important}
 .gameScanner>button{flex:0 0 auto!important;align-self:center!important;margin:10px auto 0!important;padding:12px 22px!important;border-radius:999px!important;background:#fff!important;color:#173c2d!important;font-weight:700!important}
+
+/* Navigation app chooser */
+.navChooser{position:fixed!important;inset:0!important;z-index:180!important;display:flex!important;align-items:flex-end!important;justify-content:center!important;padding:18px 18px calc(18px + env(safe-area-inset-bottom))!important;background:rgba(0,0,0,.48)!important;backdrop-filter:blur(4px)!important;-webkit-backdrop-filter:blur(4px)!important}
+.navChooserCard{width:min(100%,390px)!important;padding:18px!important;border-radius:22px!important;background:#f7efd9!important;box-shadow:0 14px 40px #0008!important;display:grid!important;gap:10px!important;color:#173c2d!important}
+.navChooserCard>b{text-align:center!important;font-size:20px!important;margin-bottom:3px!important}
+.navChooserCard a,.navChooserCard button{display:block!important;width:100%!important;box-sizing:border-box!important;border:0!important;border-radius:13px!important;padding:14px 16px!important;text-align:center!important;text-decoration:none!important;font:700 17px/1.2 system-ui,sans-serif!important}
+.navChooserCard a{background:#174d38!important;color:#fff!important}
+.navChooserCard button{background:#ded5bd!important;color:#173c2d!important}
