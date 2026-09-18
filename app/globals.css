@@ -5,3 +5,16 @@ select{width:100%;border:1px solid #cfc7b4;border-radius:12px;padding:14px;font-
 .scanMain{width:100%;font-size:17px;margin:8px 0 14px}.scannedCard{display:flex;justify-content:space-between;align-items:center;padding:15px;margin:10px 0;background:#e9f4e5;border:1px solid #bdd5b6;border-radius:14px}.scannedCard b{font-size:18px}.scannedCard span{font-size:12px;color:#4d7048}.manual{margin:14px 0;text-align:left;border-top:1px solid #e1dac8;padding-top:12px}.manual summary{cursor:pointer;color:#73796f;font-size:13px}.manual .secondary{width:100%;margin-top:9px}
 .found{margin-top:18px;padding:20px;background:#eaf5e6;border:1px solid #bcd7b5;border-radius:18px}.foundGhost{font-size:52px}.found h2{margin:4px 0}.found p{margin:6px 0 12px}.found .primary{width:100%}
 .hintReveal{width:100%;border:1px solid #d4c9a9;background:#fff9e8;color:#173c2d;border-radius:13px;padding:14px;font-weight:850;font-size:15px;margin:12px 0}.clue{animation:hintIn .18s ease-out}@keyframes hintIn{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:none}}
+/* Mobile viewport polish */
+html,body{min-height:100%;background:#fbf7ea}
+body{min-height:100dvh}
+main{min-height:100dvh;overflow-x:hidden}
+.hero{min-height:52dvh;padding-top:max(72px,calc(env(safe-area-inset-top) + 48px));padding-bottom:22px}
+.actions{padding:20px 22px calc(24px + env(safe-area-inset-bottom))}
+header{height:auto;min-height:64px;padding-top:env(safe-area-inset-top);box-sizing:content-box}
+@media(max-width:600px){
+ .hero{min-height:54dvh}
+ .ghost{margin-top:24px}
+ .actions{padding-top:18px}
+ .hint{margin-top:14px}
+}
