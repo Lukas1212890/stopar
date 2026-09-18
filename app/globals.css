@@ -47,3 +47,8 @@ header{height:auto;min-height:64px;padding-top:env(safe-area-inset-top);box-sizi
    padding:38px 22px calc(32px + env(safe-area-inset-bottom))!important;
  }
 }
+/* Real iPhone tuning v9: move the entire home composition lower */
+@media(max-width:600px){
+ main:has(.hero){padding-top:90px!important;background:#fbf7ea!important}
+ main:has(.hero) .hero{padding-top:calc(env(safe-area-inset-top) + 145px)!important}
+}
