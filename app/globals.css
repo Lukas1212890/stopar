@@ -37,3 +37,13 @@ header{height:auto;min-height:64px;padding-top:env(safe-area-inset-top);box-sizi
  main:has(.hero) .hero .ghost{margin:0 auto 8px!important}
  main:has(.hero) .actions{flex:0 0 auto!important;padding:28px 22px calc(28px + env(safe-area-inset-bottom))!important}
 }
+/* iPhone home screen correction from real-device screenshot */
+@media(max-width:600px){
+ main:has(.hero){min-height:100dvh!important;display:block!important}
+ main:has(.hero) .hero{
+   padding:calc(env(safe-area-inset-top) + 145px) 22px 42px!important;
+ }
+ main:has(.hero) .actions{
+   padding:38px 22px calc(32px + env(safe-area-inset-bottom))!important;
+ }
+}
