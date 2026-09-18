@@ -175,3 +175,11 @@ body:has(.illustratedComplete){background:#071f17!important}
  .playHotspot{top:54.0%!important;height:7.2%!important}
  .createHotspot{top:62.5%!important;height:6.6%!important}
 }
+
+/* Clean full-screen QR scanner */
+.scanner{position:fixed!important;inset:0!important;z-index:200!important;width:100vw!important;height:100dvh!important;min-height:100dvh!important;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;background:#000!important;overflow:hidden!important}
+.scanner #qrReader{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;border:0!important;background:#000!important}
+.scanner #qrReader video{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover!important}
+.scanner #qrReader>div{border:0!important}
+.scanner .scanbox{position:absolute!important;z-index:205!important;left:50%!important;top:46%!important;width:min(68vw,310px)!important;height:min(68vw,310px)!important;transform:translate(-50%,-50%)!important;border:3px solid rgba(255,255,255,.95)!important;border-radius:22px!important;box-shadow:0 0 0 200vmax rgba(0,0,0,.28)!important;pointer-events:none!important;background:transparent!important}
+.scanner>button{position:absolute!important;z-index:210!important;left:50%!important;bottom:calc(24px + env(safe-area-inset-bottom))!important;transform:translateX(-50%)!important;width:auto!important;min-width:170px!important;padding:14px 22px!important;margin:0!important;border:1px solid rgba(255,255,255,.35)!important;border-radius:999px!important;background:rgba(8,43,32,.88)!important;color:#fff!important;font-weight:700!important;font-size:16px!important;backdrop-filter:blur(10px)!important;-webkit-backdrop-filter:blur(10px)!important}
