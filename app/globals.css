@@ -140,3 +140,12 @@ body:has(.illustratedGame){background:#071f17!important}
 .gameScanner{z-index:100!important}
 .gameFound{z-index:110!important}
 @media(min-width:700px){.illustratedGame{max-width:430px!important}}
+
+/* Align manual QR fallback with artwork and avoid duplicate painted label */
+.gameManual{left:20%!important;top:64.6%!important;width:61%!important;margin:0!important;padding:0!important}
+.gameManual summary{display:block!important;width:100%!important;height:4.4dvh!important;margin:0!important;padding:0!important;list-style:none!important;font-size:0!important;color:transparent!important;background:transparent!important;cursor:pointer!important}
+.gameManual summary::-webkit-details-marker{display:none!important}
+.gameManual summary::marker{content:""!important}
+.gameManual .srOnly{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.gameManual[open]{top:64.6%!important;padding:8px 10px 10px!important;background:rgba(245,222,174,.97)!important}
+.gameManual[open] summary{height:18px!important}
