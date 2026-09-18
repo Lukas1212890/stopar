@@ -163,3 +163,9 @@ body:has(.illustratedGame){background:#071f17!important}
 .foundFinalClose{left:4%!important;top:3.2%!important;width:31%!important;height:7.2%!important}
 .foundFinalFinish{left:14%!important;top:60.1%!important;width:72%!important;height:8.2%!important}
 @media(min-width:700px){.foundFinal{left:50%!important;right:auto!important;width:430px!important;transform:translateX(-50%)!important}}
+
+/* Illustrated expedition-complete screen */
+body:has(.illustratedComplete){background:#071f17!important}
+.illustratedComplete{position:relative!important;display:block!important;width:100%!important;height:100dvh!important;min-height:100dvh!important;margin:0 auto!important;padding:0!important;background:#0b2a20 url('/stopar-vyprava-dokoncena-stopik-HD.png') center center/cover no-repeat!important;overflow:hidden!important}
+.completeHomeHotspot{position:absolute!important;z-index:20!important;left:9%!important;top:86.1%!important;width:82%!important;height:8.3%!important;border:0!important;background:transparent!important;padding:0!important;margin:0!important;-webkit-tap-highlight-color:transparent}
+@media(min-width:700px){.illustratedComplete{max-width:430px!important}}
