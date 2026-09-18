@@ -113,3 +113,12 @@ body:has(.illustratedPlay){background:#071f17!important}
 /* Join screen v2 artwork alignment */
 .playCodeInput{top:56.7%!important;left:15%!important;width:70%!important;height:5.4%!important;background:rgba(255,255,255,.03)!important;color:#173c2d!important;font-size:20px!important}
 .playJoinHotspot{top:63.2%!important;left:12%!important;width:76%!important;height:7.2%!important}
+
+/* Fix back button hotspot to match the wooden Hrát výpravu sign */
+.playBackHotspot{
+ left:4.5%!important;
+ top:6.0%!important;
+ width:47%!important;
+ height:8.0%!important;
+ z-index:40!important;
+}
